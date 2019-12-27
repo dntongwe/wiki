@@ -1,0 +1,50 @@
+$sansSerif: "proxima-nova",sans-serif;
+$serif: "garamond-premier-pro-display",serif;
+
+// Universal
+
+body {
+	background: #F9F9F9;
+	font-size: 1em;
+  line-height: 1.4;
+  padding: 8rem 0;
+}
+
+h1 {
+	font-family: $sansSerif;
+	font-size: 200%;
+}
+
+p {
+	font-family: $serif;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	color: #6C6C6C;
+	padding: .5rem 0;
+}
+
+.navbar {
+	.brand {
+		font-size: 1.5rem;
+		font-weight: bold;
+		letter-spacing: -2px;
+		display: inline-block;
+		font-family: $sansSerif;
+		color: #249AC4;
+		transition: color .5s ease;
+		&:hover {
+			color: #282828;
+		}
+	}
+}
+
+.navbar-fixed-top .navbar-inner {
+	background: #FFF;
+	box-shadow: none;
+	border-bottom: 5px solid #eee;
+	padding: .75rem 0;
+}
+
+input, textarea {
+	width: 100%;
+}
